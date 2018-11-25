@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>2918 Client Referral Process Management - Blockchain</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+    <div class="container">
+        <br>
+        <span id="create"></span>
+        <a href="list.html" class="button">List of Clients</a>
+        <button class="button" id="logout">logout</button>
+        <a class="button u-pull-right" href="users.html"><i class="far fa-chart-bar"></i> statistics</a>
+        <h1>Statistics</h1>
+        <div>Welcome <span id="username"></span> (<span id="your_address"></span>)</div>
+        <div><span id="your_party"></span> | <span id="your_balance"></span></div>
+        <br>
+        <div id="userInfo"></div>
+        <br>
+        <div id="fields">No pending clients</div>
+    </div>
+
+    <script src="js/ethers-v3.0.min.js"></script>
+    <script src="js/statistics.js"></script>
+</body>
+</html>
